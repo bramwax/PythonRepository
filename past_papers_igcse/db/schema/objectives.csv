@@ -1,0 +1,126 @@
+objective|unit_fk|subunit_fk
+1 Binary (how & why)|1|1.1
+2a Denary, binary & hexadecimal|1|1.1
+2bi Denary to binary conversion|1|1.1
+2bii Denary to hexadecimal conversion|1|1.1
+2biii Hexadecimal to binary conversion|1|1.1
+3 Hexadecimal (how & why)|1|1.1
+4a Binary addition|1|1.1
+4b Binary addition & overflow|1|1.1
+5 Logical binary shifts|1|1.1
+6 Two's compliment|1|1.1
+1 Representing text (ASCII & Unicode)|1|1.2
+2 Representing sound (sample rate & resolution)|1|1.2
+3 Representing images (resolution & colour depth)|1|1.2
+1 Quantities of data (bit, nibble, etc)|1|1.3
+2 Calculating file size|1|1.3
+3 Data compression (purpose & need)|1|1.3
+4 Lossy & lossless compression|1|1.3
+1a Data packets|2|2.1
+1b Data packet structure|2|2.1
+1c Packet switching|2|2.1
+2a Data transmission (serial, parallel, etc)|2|2.1
+2b Suitability of data transmission|2|2.1
+3 USB interface (how, pros & cons)|2|2.1
+1 Data transmission errors (how)|2|2.2
+2 Error detection methods (parity, etc)|2|2.2
+3 Check digit (how & uses)|2|2.2
+4 ARQ (how)|2|2.2
+1 Encryption|2|2.3
+2 Symmetric & asymmetric encryption|2|2.3
+1a CPU (role)|3|3.1
+1b Microprocessor|3|3.1
+2a CPU (components & Von Neuman architecture)|3|3.1
+2b CPU (Fetch-decode-execute cycle)|3|3.1
+3 CPU (core, cache, clock & performance)|3|3.1
+4 CPU (instruction set)|3|3.1
+5 Embedded systems (purpose & examples)|3|3.1
+1 Input devices|3|3.2
+2 Output devices|3|3.2
+3a Sensors (what & purpose)|3|3.2
+3b Sensor data (what & when)|3|3.2
+1 Primary storage (memory)|3|3.3
+2 Secondary storage (memory)|3|3.3
+3 Storage devices (HDD, SSD, optical)|3|3.3
+4 Virtual memory (how & why)|3|3.3
+5 Cloud storage|3|3.3
+6 Cloud versus (pros & cons)|3|3.3
+1 NIC card|3|3.4
+2 MAC address (purpose & structure)|3|3.4
+3a IP address (purpose)|3|3.4
+3b Types of IP address (IPv4 & IPv6)|3|3.4
+4 Router|3|3.4
+1 Software (system & application)|4|4.1
+2 OS (basic functions)|4|4.1
+3 Hardware, firmware & OS|4|4.1
+4 Interrupts (role & operation)|4|4.1
+1 High and low-level languages|4|4.2
+2 Assembly language & machine code|4|4.2
+3 Compiler & interpreter|4|4.2
+4 Compiler & interpreter (advantages)|4|4.2
+5 IDEs|4|4.2
+1 Internet & world wide web|5|5.1
+2 URL|5|5.1
+3 HTTP & HTTPS|5|5.1
+4 Web browser (purpose & function)|5|5.1
+5 Web pages (location, retrieval & display)|5|5.1
+6 Session & persistent cookies (use)|5|5.1
+1 Digital currency (concept, use)|5|5.2
+2 Blockchain (how & why)|5|5.2
+1 Cyber security threats (how & why)|5|5.3
+2 Cyber security solutions|5|5.3
+1 Automated systems|6|6.1
+2 Automated systems (pros & cons)|6|6.1
+1 Robotics|6|6.2
+2 Robots (characteristics)|6|6.2
+3 Robots (role, pros & cons)|6|6.2
+1 Artificial intelligence (meaning)|6|6.3
+2 artificial intelligence (characteristics)|6|6.3
+3 Artificial intelligence (basic operation)|6|6.3
+1 Program development lifecycle|7|
+2a Sub-systems|7|
+2b Problem decomposition|7|
+2c Solution design (diagrams, flowcharts, Pseudocode)|7|
+3 Algorithm (interpret)|7|
+4 Standard methods (linear search, bubble sort, etc)|7|
+5a Validation checks (need & type)|7|
+5b Verification checks (need & types)|7|
+6 Test data|7|
+7 Trace tables (complete)|7|
+8 Errors (identify & correct)|7|
+9 Algorithms (write & ammend)|7|
+1 Variables & constants|8|8.1
+2 Basic data types|8|8.1
+3 Input & output (console)|8|8.1
+4a Sequence (concept)|8|8.1
+4b Selection (IF...ELIF...ELSE & CASE)|8|8.1
+4c Iteration (FOR, WHILE & DO-WHILE)|8|8.1
+4d Totalling & counting|8|8.1
+4e String handling|8|8.1
+4f Operators (arithmetic, logical & Boolean)|8|8.1
+5 Nested statements|8|8.1
+6a Procedures, functions & parameters|8|8.1
+6b Procedures, functions & parameters (define & use)|8|8.1
+6c Local & global variables|8|8.1
+7 Library routines|8|8.1
+8 Maintainable programs (extensibility)|8|8.1
+1 Arrays (declare 1D & 2D)|8|8.2
+2 Arrays (use)|8|8.2
+3 Arrays (read, write, iterate)|8|8.2
+1 Data files (purpose)|8|8.3
+2 Data files (read & write)|8|8.3
+1 Single-table database (define)|9|
+2 Basic data types|9|
+3 Primary key (purpose and suitability)|9|
+4 SQL queries (understand & complete)|9|
+1 Logic gates (symbols)|10|
+2 Logic gates (functions)|10|
+3ai Logic circuit from problem|10|
+3aii Logic circuit from logic expression|10|
+3aiii Logic circuit from truth table|10|
+3bi Truth table from problem statement|10|
+3bii Truth table from logic expression|10|
+3biii Truth table from logic circuit|10|
+3ci Logical expression from problem statement|10|
+3cii Logical expression from logic circuit|10|
+3ciii Logical expression from truth table|10|

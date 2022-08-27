@@ -1,0 +1,54 @@
+question_number|mark|note|paper_fk|objective_fk
+1a|4|Convert HEX 8-bit register to binary|1|5
+1b|4|What is a MAC address|1|48
+1c|2|Uses of hexadecimal|1|6
+1di|1|Binary register logical left shift|1|9
+1dii|1|Effect of logical shift|1|9
+1e|2|Represent negative integer as two's compliment|1|10
+2a|4|Structure of a data packet|1|19
+2bi|1|Benefit of compressing videos|1|16
+2bii|2|Methods of data compression|1|17
+2biii|4|Parallel half-duplex|1|22
+2ci|4|What is a DDos attack|1|69
+2cii|1|Cyber security solutions|1|70
+3ai|3|Characteristics of an IP address|1|50
+3aii|1|IP related network device|1|51
+3b|3|Anatomy of a URL|1|62
+4a|3|Components of the CPU|1|32
+4b|2|Purpose of the CU|1|32
+4ci|1|Purpose of a core|1|34
+4cii|2|Benefit of upgrading to dual core|1|34
+4d|1|Bootstrap|1|54
+5ai|2|High-level versus low-level languages|1|56
+5aii|1|High-level versus low-level languages|1|56
+5b|1|IDE|1|60
+6a|2|Characteristics of a robot|1|74
+6b|2|Advantages of using robots|1|75
+7a|2|Character set|1|11
+7b|1|Unicode versus ASCII|1|11
+8a|4|How virtual memory is created & used (diagram)|1|44
+8b|3|Virtual memory & 3D modelling software|1|44
+9|5|Symmetric encryption|1|29
+10|6|Describe SSL|1|70
+1a|4|Pseudocode statements|2|82
+1b|3|Output values from an array using a loop|2|108
+2|4|Purpose of validation & verification|2|85
+3|1|Function|2|101
+4|4|Structure diagram for satellite navigation system|2|82
+5a|4|Identify errors in Pseudocode|2|89
+5b|2|Correct errors in Pseudocode|2|89
+6a|4|Logic circuit from expression|2|118
+6b|4|Truth table from logic expression|2|121
+7a|5|Complete trace table|2|88
+7b|2|Describe the purpose of a flowchart|2|83
+8|3|Test data|2|87
+9|3|Data files|2|109
+10|1|Parameters|2|101
+11a|1|Count records|2|114
+11bi|1|Identify primary key|2|113
+11bii|1|Justify primary key|2|113
+11c|2|Suggest suitable data types|2|112
+11d|2|Complete SQL|2|114
+12a|3|Declare variables|2|91
+12b|6|Construct solution|2|82
+13|15|Construct solution|2|82
