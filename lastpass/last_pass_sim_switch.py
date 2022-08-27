@@ -1,3 +1,5 @@
+# https://www.freecodecamp.org/news/python-switch-statement-switch-case-example/
+
 import random
 
 def import_data(filename):
