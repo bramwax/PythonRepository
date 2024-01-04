@@ -1,9 +1,4 @@
 '''
-[['🍌','🍎','😃','🐉'],
- ['👺','🍺','🍩','🚴'],
- ['🚘','🦑','🚆','🏝'],
- ['🌆','🛹','🕺','🍕']]
-     
 1. Row-wise Traversal:
 
     Forward: Iterate through each row from left to right.
@@ -39,11 +34,6 @@
 
         
 4. Boundary Traversal:
-
-    [['🍌','🍎','😃','🐉'],
-     ['👺','🍺','🍩','🚴'],
-     ['🚘','🦑','🚆','🏝'],
-     ['🌆','🛹','🕺','🍕']]
      
     Top:
         Forward: Left to right.
@@ -53,64 +43,59 @@
         
     Right:
         Forward: Top to bottom.
-        >>>[,,,]
+        >>>['🐉','🚴','🏝','🍕']
         
         Reverse: Bottom to top.
-        >>>[,,,]
+        >>>['🍕','🏝','🚴','🐉']
         
     Bottom:
         Forward: Left to right.
         >>>['🌆','🛹','🕺','🍕']
         
         Reverse: Right to left.
-        >>>[,,,]
+        >>>['🍕','🕺','🛹','🌆']
         
     Left:
         Forward: Top to bottom.
-        >>>[,,,]
+        >>>['🍌','👺','🚘','🌆']
         
         Reverse: Bottom to top.
-        >>>[,,,]
+        >>>['🌆','🚘','👺','🍌']
         
     Full:
-        Forward: From top-left corner.
-        >>>[]
+        Forward: From top-left corner clockwise.
+        >>>['🍌','🍎','😃','🐉','🚴','🏝','🍕','🕺','🛹','🌆','🚘','👺']
         
-        Reverse: From top-left corner.
-        >>>[]
+        Reverse: From top-left corner anticlockwise.
+        >>>['🍌','👺','🚘','🌆','🛹','🕺','🍕','🏝','🚴','🐉','😃','🍎']
         
-7. Zigzag Traversal:
+5. Zigzag Traversal:
 
-    row_first: Traverse rows left to right, then right to left, and repeat.
+    Row First: Traverse rows left to right, then right to left, and repeat.
     >>>['🍌','👺','🍎','😃','🍺','🚘','🌆','🦑','🍩','🐉','🚴','🚆','🛹','🕺','🏝','🍕']
         
-    col_first: Traverse rows right to left, then left to right, and repeat.
+    Column First: Traverse rows right to left, then left to right, and repeat.
     >>>['🍌','🍎','👺','🚘','🍺','😃','🐉','🍩','🦑','🌆','🛹','🚆','🚴','🏝','🕺','🍕']
 
-8. Snake Traversal:
+6. Snake Traversal:
+
     Forward: Traverse rows left to right, then right to left, and move to the next row.
+    >>>['🍌','🍎','😃','🐉','🚴','🍩','🍺','👺','🚘','🦑','🚆','🏝','🍕','🕺','🛹','🌆']
+    
     Reverse: Traverse rows right to left, then left to right, and move to the next row.
+    >>>['🐉','😃','🍎','🍌','👺','🍺','🍩','🚴','🏝','🚆','🦑','🚘','🌆','🛹','🕺','🍕']
+    
     Down: Traverse columns top to bottom, then right to left, and move to the next row.
+    >>>['🍌','👺','🚘','🌆','🛹','🦑','🍺','🍎','😃','🍩','🚆','🕺','🍕','🏝','🚴','🐉']
+    
     Up: Traverse columns bottom to top, then top to bottom, and move to the next column.
+    >>>['🌆','🚘','👺','🍌','🍎','🍺','🦑','🛹','🕺','🚆','🍩','😃','🐉','🚴','🏝','🍕']
 
-9. Column-wise Zigzag Traversal:
-    Forward: Traverse columns top to bottom, then bottom to top, and repeat.
-    Reverse: Traverse columns bottom to top, then top to bottom, and repeat.
+7. Spiral Traversal:
 
-10. Diagonal Zigzag Traversal:
-    Forward: Traverse diagonals left to right, then right to left, and repeat.
-    Reverse: Traverse diagonals right to left, then left to right, and repeat.
-
-11. Clockwise Diagonal Spiral:
-    Forward: Move in a clockwise spiral pattern along both diagonals.
-    Reverse: Move in a counter-clockwise spiral pattern along both diagonals.
-
-12. Anti-clockwise Diagonal Spiral:
-    Forward: Move in an anti-clockwise spiral pattern along both diagonals.
-    Reverse: Move in a clockwise spiral pattern along both diagonals.
+    Forward: Move in a clockwise spiral pattern from the top-left.
+    >>>['🍌','🍎','😃','🐉','🚴','🏝','🍕','🕺','🛹','🌆','🚘','👺','🍺','🍩','🚆','🦑']
+    
+    Reverse: Move in a counter-clockwise spiral pattern from the top-left.
+    >>>['🍌','👺','🚘','🌆','🛹','🕺','🍕','🏝','🚴','🐉','😃','🍎','🍺','🦑','🚆','🍩']
 '''
-
-matrix = [['🍌','🍎','😃','🐉'],
-          ['👺','🍺','🍩','🚴'],
-          ['🚘','🦑','🚆','🏝'],
-          ['🌆','🛹','🕺','🍕']]
