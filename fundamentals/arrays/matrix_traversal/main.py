@@ -1,9 +1,3 @@
-def add_to_result(num_in):
-    global result
-    result = result + str(num_in) + ", "
-    global count
-    count += 1
-
 # A 2D array is assigned to the variable with the idenifier grid
 grid = [[5 ,13,7 ,9 ],
         [21,11,13,7 ],
@@ -50,55 +44,36 @@ print(bottom_top)
 '''
 
 # print values in a clockwise spiral from top left
+width, height = len(grid[0]), len(grid)
+total_items = width * height
 
-row = 0
-col = 0
-status = "right"
-count = 0
-result = ""
+print(f"{width} x {height} = {total_items} items to print.")
+
+row, col = 0, 0
+moving = "right"
+output = ""
 sub = 0
 
-total = len(grid[0]) * len(grid[0])
+
 
 while True:
 
-    if status == "right":
-        num = grid[row][col]
-        print(num)
-        add_to_result(num)
-        row += 1
-        if row > len(grid[col]) - sub:
-            status = "down"
-            row -= 1
+    if moving == "right":
+        output += str(grid[row][col]) + ","
+        if col < (width -1) - sub:
             col += 1
-
-    elif status == "down":
-        num = grid[col][len(grid[col]) - sub]
-        add_to_result(num)
-        col += 1
-        if col > len(grid):
-            status = "left"
-            col -= 1
-            row = len(grid[col]-1)
-
-    elif status == "left":
-        num = grid[col][row]
-        add_to_result(num)
-        row -= 1
-        if row < 0 + sub:
-            status = "up"
-            row = 0
-            col -= 1
-            sub += 1
-
-    else:
-        num = grid[col][row]
-        add_to_result(num)
-        col -= 1
-        if col < 0 + sub:
-            status = "right"
+        else:
+            moving = "down"
             row += 1
-            col += 1
+            
+    elif moving == "down":
+        output += str(grid[row][col]) + ","
+        row += 1
+        if row < (height -1) - sub:
+            row += 1
+        else:
+            moving = "left"
+            col -= 1
+            break
 
-    if count >= total:
-        break
+print(output[:-1])
