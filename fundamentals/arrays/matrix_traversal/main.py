@@ -1,4 +1,5 @@
-import row_wise
+import solutions.row_wise
+import solutions.col_wise
 
 def main():
     matrix = [['🍌','🍎','😃','🐉'],

@@ -7,4 +7,4 @@ Reverse: Iterate through each row from right to left.
 >>>['🐉','😃','🍎','🍌','🚴','🍩','🍺','👺','🏝','🚆','🦑','🚘','🍕','🕺','🛹','🌆']
 '''
 
-print("row_wise is available")
+print("row_wise module is available")
