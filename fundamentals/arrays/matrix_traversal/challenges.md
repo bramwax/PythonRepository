@@ -6,7 +6,7 @@
 &nbsp;['🌆','🛹','🕺','🍕']]
 
 ## Challenges  
-*For each of the following create a function that takes the above array, and returns a new array containing the items in the correct order. The best approach might be to create separate files for each of the subtasks and import these into a central file such as main.py.*
+*For each of the following create a function that takes a dynamic 2D array (various sizes of matrix), and returns a 1D array containing the output (items) from the given traversal. The best approach would be to create separate files for each of the numbered challenges and import these into a central main.py file for testing.*
 
 1. Row-wise Traversal:
     >Forward: Iterate through each row from left to right.  
@@ -14,6 +14,7 @@
     
     >Reverse: Iterate through each row from right to left.  
     >['🐉','😃','🍎','🍌','🚴','🍩','🍺','👺','🏝','🚆','🦑','🚘','🍕','🕺','🛹','🌆']
+
 2. Column-wise Traversal:
 
     >Forward: Iterate through each column from top-left to bottom-right.  
