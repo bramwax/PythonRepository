@@ -4,7 +4,7 @@ import solutions.col_wise as cw
 def main():
     matrix = [['🍌','🍎','😃','🐉'],
               ['👺','🍺','🍩','🚴'],
-              ['🚘','🦑','🚆','🏝'],
+              ['🚘','🦑','🚆','🏝️'],
               ['🌆','🛹','🕺','🍕']]
     
     print(f"Row-wise traversal (fwd): {rw.row_wise_fwd(matrix)}")
