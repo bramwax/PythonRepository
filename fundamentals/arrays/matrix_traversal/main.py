@@ -7,8 +7,8 @@ def main():
               ['🚘','🦑','🚆','🏝'],
               ['🌆','🛹','🕺','🍕']]
     
-    print(rw.row_wise_fwd(matrix))
-    print(rw.row_wise_rev(matrix))
+    print(f"Row-wise traversal (fwd): {rw.row_wise_fwd(matrix)}")
+    print(f"Row-wise traversal (rev): {rw.row_wise_rev(matrix)}")
     print(cw.col_wise_fwd(matrix))
     print(cw.col_wise_rev(matrix))
 
