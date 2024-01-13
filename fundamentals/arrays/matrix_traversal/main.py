@@ -1,5 +1,6 @@
 import solutions.row_wise as rowwise
 import solutions.col_wise as colwise
+import solutions.diagonal as diag
 
 def main():
 
@@ -15,8 +16,10 @@ def main():
 	print("Row-wise BRTL:", *rowwise.row_wise_br_tl(matrix))
 	print("Row-wise BLTR:", *rowwise.row_wise_bl_tr(matrix))
 	print("-" * 63)
-	print("Col-wise TLBR:", *colwise.col_wise_tl_br(matrix))
-	print("Col-wise TRBL:", *colwise.col_wise_tr_bl(matrix))
+	print("Diagonal TLBR", *diag.diag_tl_br(matrix))
+	print("Diagonal TRBL", *diag.diag_tr_bl(matrix))
+	print("Diagonal BRTL", *diag.diag_br_tl(matrix))	
+	print("Diagonal BLTR", *diag.diag_bl_tr(matrix))
 
 if __name__ == "__main__":
 	main()

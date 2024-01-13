@@ -35,11 +35,18 @@ def col_wise_tr_bl(matrix):
 		n_cols = len(matrix[0])
 
 		# using for loops
-		for n in range(n_cols-1, -1, -1):
-			for m in range(0, m_rows):
-				result.append(matrix[m][n])
+		# for n in range(n_cols-1, -1, -1):
+		# 	for m in range(0, m_rows):
+		# 		result.append(matrix[m][n])
 
 		# using while loops
+		m = 0
+		while m < m_rows:
+			n = n_cols - 1
+			while n > -1:
+				result.append(matrix[m][n])
+				n -= 1
+			m += 1
 
 	return result
 
@@ -54,8 +61,18 @@ def col_wise_br_tl(matrix):
 		n_cols = len(matrix[0])
 
 		# using for loops
+		# for m in range(m_rows-1, -1, -1):
+		# 	for n in range(n_cols-1, -1,-1):
+		# 		result.append(matrix[m][n])
 
 		# while loops
+		m = m_rows-1
+		while m > -1:
+			n = n_cols-1
+			while n > -1:
+				result.append(matrix[m][n])
+				n -= 1
+			m -= 1
 
 	return result
 
@@ -70,7 +87,17 @@ def col_wise_bl_tr(matrix):
 		n_cols = len(matrix[0])
 
 		# using for loops
+		# for m in range(m_rows-1, -1, -1):
+		# 	for n in range(0, n_cols):
+		# 		result.append(matrix[m][n])
 
 		# using while loops
+		m = m_rows-1
+		while m > -1:
+			n = 0
+			while n < n_cols:
+				result.append(matrix[m][n])
+				n += 1
+			m -= 1
 
 		return result
