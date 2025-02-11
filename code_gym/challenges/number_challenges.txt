@@ -1,0 +1,52 @@
+# 001 | Enter a number...
+# ========================================
+
+### Basic Properties of Numbers (Introductory Level)
+# ----------------------------------------
+# 002 | Is it an integer number?
+# 003 | Is it a floating-point number?
+# 004 | What is the scale of the number?
+# 005 | What is the sign of the number?
+# 006 | Is it zero?
+# 007 | Is it a positive number?
+# 008 | Is it a negative number?
+
+### Simple Mathematical Properties (Intermediate Level)
+# ----------------------------------------
+# 009 | Is it an even number?
+# 010 | Is it an odd number?
+# 011 | Is it a prime number?
+# 012 | Is it a square number?
+# 013 | Is it a cube number?
+# 014 | Is it a power of 2?
+# 015 | What is its binary representation?
+# 016 | What is its octal representation?
+# 017 | What is its hexadecimal representation?
+# 018 | What is its Roman numeral equivalent?
+
+### Advanced Number Sequences and Patterns (Advanced Intermediate Level)
+# ----------------------------------------
+# 019 | Is it a number in the Fibonacci sequence?
+# 020 | Is it a triangular number?
+# 021 | Is it a palindromic Number?
+# 022 | Is it a happy number?
+# 023 | Is it a Pythagorean triple?
+# 024 | Is it part of a geometric sequence?
+
+### Factorization and Divisor Properties (Advanced Level)
+# ----------------------------------------
+# 025 | What are its factors?
+# 026 | What are its prime factors?
+# 027 | What is the GCD of this number and another?
+# 028 | What is its LCM with another number?
+# 029 | Is it deficient, abundant, or perfect?
+# 030 | Is it a highly composite number?
+
+### Special Numbers and Complex Properties (Expert Level)
+# ----------------------------------------
+# 031 | Is it a perfect number?
+# 032 | Is it an amicable number?
+# 033 | Is it a Kaprekar number?
+# 034 | Is it a factorial number?
+# 035 | What is its digit sum?
+# 036 | What is its multiplicative persistence?

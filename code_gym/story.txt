@@ -1,0 +1,22 @@
+Title: Aurora
+
+Synopsis:
+In a quiet corner of a bustling world, teenage Mia discovers her passion for coding, sparking a journey that will reshape the future. What begins as a simple hobby evolves into a groundbreaking project when Mia creates Aurora, an AI capable of learning and adapting to solve humanity’s toughest challenges.
+
+From her small-town beginnings to global recognition, Mia faces hurdles of self-doubt, corporate greed, and the ethical dilemmas of wielding such transformative power. But her unwavering belief in technology as a force for good drives her forward.
+
+As Aurora tackles problems like climate change, access to education, and global health disparities, Mia learns that changing the world isn't just about the code—it's about the heart behind it.
+
+Aurora is an inspiring tale of innovation, resilience, and the courage to dream big, reminding us all that the future is built one line of code at a time.
+
+Chapter 1: Hello, World
+
+Mia stared at the blinking cursor on her laptop screen, her fingers hovering uncertainly over the keyboard. Her dad had suggested learning to code after she’d spent the summer binge-watching tech documentaries, but now that she was actually doing it, the whole thing felt daunting. The idea of typing commands into a computer and having it respond seemed magical, almost too powerful for someone her age. Still, she couldn't shake the excitement bubbling just beneath her nerves.
+
+"Start simple," her dad had said, handing her a book on Python. She’d flipped through it, the pages filled with unfamiliar words like "loop," "variable," and "function." But one phrase had stuck with her: Coding is just problem-solving with a computer as your partner. That idea had intrigued her, so here she was, ready to take her first step.
+
+She typed: print("Hello, world!") and hit enter. The words appeared instantly on the screen, just as the book had promised. A thrill shot through her. “It worked!” she whispered, a grin spreading across her face. For the first time, she felt like she’d unlocked a door to a world where she could create anything she could imagine.
+
+Over the next few weeks, Mia's room transformed into a makeshift coding den. Sticky notes covered her desk with scribbled ideas and error messages she needed to troubleshoot. She learned to embrace the little mistakes—missing colons, misnamed variables—because each one taught her something new. Her first real project was a number-guessing game. It wasn’t much, just a few lines of code that let the computer choose a number and give hints as she tried to guess it, but to Mia, it felt like she’d built her own universe.
+
+Mia’s confidence grew with every challenge she overcame. She began dreaming of bigger projects: a chatbot that could talk like her best friend, a website to share her sketches, maybe even a game inspired by her love of fantasy novels. The once-daunting idea of coding now felt like an open invitation to explore endless possibilities. For the first time, Mia realized that the blinking cursor wasn’t just a demand for input; it was a promise of adventure.

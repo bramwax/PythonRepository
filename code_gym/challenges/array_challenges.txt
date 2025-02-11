@@ -1,0 +1,64 @@
+# 001 | Enter an array...
+# ========================================
+
+### Basic Array Properties (Introductory Level)
+# ----------------------------------------
+# 002 | What is the length of the array?
+# 003 | Is the array empty?
+# 004 | What is the first element of the array?
+# 005 | What is the last element of the array?
+# 006 | Does the array contain a specific element?
+# 007 | How many times does a specific element appear in the array?
+# 008 | Get the index of a specific element in the array.
+# 009 | Is the array a list of numbers?
+# 010 | Is the array a list of strings?
+
+### Array Modifications (Intermediate Level)
+# ----------------------------------------
+# 011 | Add an element to the end of the array.
+# 012 | Add an element to the beginning of the array.
+# 013 | Remove the last element from the array.
+# 014 | Remove the first element from the array.
+# 015 | Insert an element at a specific position.
+# 016 | Remove a specific element from the array.
+# 017 | Replace an element at a specific index.
+# 018 | Clear all elements from the array.
+
+### Array Transformations (Advanced Level)
+# ----------------------------------------
+# 019 | Reverse the array.
+# 020 | Sort the array in ascending order.
+# 021 | Sort the array in descending order.
+# 022 | Find the minimum element in the array.
+# 023 | Find the maximum element in the array.
+# 024 | Find the sum of the elements in the array.
+# 025 | Find the average of the elements in the array.
+# 026 | Multiply each element in the array by a number.
+# 027 | Filter the array based on a condition.
+# 028 | Map a function over the array.
+
+### Advanced Array Operations (Expert Level)
+# ----------------------------------------
+# 029 | Flatten a multi-dimensional array.
+# 030 | Check if all elements in the array satisfy a condition.
+# 031 | Check if any element in the array satisfies a condition.
+# 032 | Merge two arrays into one.
+# 033 | Remove duplicates from the array.
+# 034 | Find the intersection of two arrays.
+# 035 | Find the difference between two arrays.
+# 036 | Rotate the array by a specified number of positions.
+# 037 | Slice the array into smaller sub-arrays.
+
+### Array Search and Indexing (Expert Level)
+# ----------------------------------------
+# 038 | Perform a binary search on a sorted array.
+# 039 | Find the index of the first occurrence of an element.
+# 040 | Find the index of the last occurrence of an element.
+# 041 | Find the index of an element that matches a condition.
+
+### Multi-Dimensional Arrays (Advanced Expert Level)
+# ----------------------------------------
+# 042 | Access an element in a multi-dimensional array.
+# 043 | Transpose a two-dimensional array.
+# 044 | Sum the elements of a multi-dimensional array along a specific axis.
+# 045 | Flatten a multi-dimensional array into a one-dimensional array.
