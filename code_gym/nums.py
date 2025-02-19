@@ -200,6 +200,23 @@ def to_hex(number):
         hex = hex[1:]
     return hex + to_base(abs(number),16)
 
+    # lookup = "0123456789ABCDEF"
+    # bin = list(number)
+    # hex = []
+    # while len(bin) % 4 != 0:
+    #     bin.insert(0,0)
+    # two_power = 1
+    # sum = 0
+    # for index in range(len(bin)-1,-1,-1):
+    #     if bin[index] == 1:
+    #         sum += two_power
+    #     two_power *= 2
+    #     if two_power > 8:
+    #         hex.insert(0,lookup[sum])
+    #         two_power = 1
+    #         sum = 0
+
+
 # 018 | What is its Roman numeral equivalent?
 def to_roman(number):
     glyphs = [['I','II','III','IV','V','VI','VII','VIII','IX'],       # one
